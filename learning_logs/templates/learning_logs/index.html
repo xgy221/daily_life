@@ -1,0 +1,18 @@
+{% extends "learning_logs/base.html" %}
+
+{% block header %}
+  <div class="jumbotron">
+    <h1>Record your daily life.</h1>
+  </div>
+{% endblock header %}
+{% block content %}
+  <h2>
+      <a href="{% url 'users:register' %}">Register an account</a> to record your life,
+      and list the topics  you want to remember.
+  </h2>
+  <h2>
+      If you want to record your daily life in more detail, you can make an entry under the topic.
+  </h2>
+{% endblock content %}
+
+
